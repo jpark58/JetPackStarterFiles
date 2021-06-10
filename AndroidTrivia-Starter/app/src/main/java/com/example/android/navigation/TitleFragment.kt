@@ -32,7 +32,7 @@ class TitleFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // 동일한 id를 menu랑 fragment같게..?
+        // 동일한 id를 menu랑 fragment같게..? this is a test
         return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
                 || super.onOptionsItemSelected(item)
 
