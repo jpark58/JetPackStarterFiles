@@ -63,13 +63,13 @@
                 android:id="@+id/price_value_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="8dp"g
                 android:textColor="#de000000"
                 android:textSize="20sp"
                 android:text="@{viewModel.displayPropertyPrice}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/property_type_text"
-                tools:text="$100,000" />
+                tools:text="$200,000" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
