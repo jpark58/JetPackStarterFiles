@@ -48,6 +48,15 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
+
+    sourceSets {
+        main {
+            java {
+                srcDirs += 'build/generated/source/navigation-args'
+            }
+        }
+    }
+
 }
 
 dependencies {
